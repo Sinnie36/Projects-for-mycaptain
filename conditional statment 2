@@ -29,4 +29,8 @@ void main()
         printf("Food Item - Egg Fried Rice\n");
         printf("Price - Rs 120");
     }
+    else if(Number > 5)
+    {
+        printf("Number exceded the max value");
+    }
 }
