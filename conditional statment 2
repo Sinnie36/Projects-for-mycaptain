@@ -1,0 +1,32 @@
+#include<stdio.h>
+void main()
+{
+    int Number;
+    scanf("%d",&Number);
+    
+    if(Number == 1)
+    {
+        printf("Food Item - Chocolate Rolls\n");
+        printf("Price - Rs 45");
+    }
+    else if(Number == 2)
+    {
+        printf("Food Item - Chicken Shawarma\n");
+        printf("Price - Rs 100");
+    }
+    else if(Number == 3)
+    {
+        printf("Food Item - Paneer Puff\n");
+        printf("Price - Rs 35");
+    }
+    else if(Number == 4)
+    {
+        printf("Food Item - Muttun skewers\n");
+        printf("Price - Rs 150");
+    }
+    else if(Number == 5)
+    {
+        printf("Food Item - Egg Fried Rice\n");
+        printf("Price - Rs 120");
+    }
+}
